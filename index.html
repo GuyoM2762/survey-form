@@ -21,8 +21,8 @@
        <label id="number-label">Age(optional)</label> <input type="number" min="1" max="120" id="age" name="age" placeholder="Age" required>
         </div>
     <div class="form-div">
-      <label id="dropdown-label">Which option best describes your role?</label>
-      <select id="name" name="dropdown">
+      <label id="dropdown-role">Which option best describes your role?</label>
+      <select id="name" name="dropdown-role">
       <option value="">Select current role></option>
       <option value="1">Student></option>   
       <option value="2">Full time job</option>   
@@ -34,6 +34,22 @@
     <div class="form-div">
       <label id="definitely"><input type="radio" value="definitely" name="recomend">Definitely</label>
   </div>
+  <div class="form-div">
+    <label id="maybe"><input type="radio" value="maybe" name="recomend">Maybe</label>
+</div>
+<div class="form-div">
+  <label id="not sure"><input type="radio" value="not sure" name="recomend">Not sure</label>
+</div>
+<div class="form-div">
+  <label id="dropdown-label-feature">Which option best describes your role?</label>
+  <select id="name" name="dropdown-feature">
+  <option value="">Select current role></option>
+  <option value="1">Challenges</option>   
+  <option value="2">Projects</option>   
+  <option value="3">Community</option>   
+  <option value="4">Open source</option>   
+  </select>
+
      </form>
 </body>
 </html>
