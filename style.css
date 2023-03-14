@@ -50,6 +50,9 @@
     }
     input[type="radio"], input[type="checkbox"]{
       height: 20px;
+      margin-left:20px;
+      width: 10%;
+
     }
     .form-radio, form-checkbox{
       display: flex;
