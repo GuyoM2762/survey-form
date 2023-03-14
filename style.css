@@ -54,8 +54,9 @@
       width: 10%;
 
     }
-    .form-radio, form-checkbox{
+    .form-radio, .div-checkbox{
       display: flex;
       flex-direction: row;
       align-items: center;
+      padding-bottom: 5px;
     }
