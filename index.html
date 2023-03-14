@@ -7,9 +7,32 @@
     <title>Survey</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
     <h1 id="title">FreeCodeCamp Survey Form</h1>
-    <p id="description">Thank you for taking time to help us improve the platform</p>
-    <form id="survey-form"></form>
+      <p id="description">Thank you for taking time to help us improve the platform</p>
+       <form id="survey-form">
+        <div class="form-div">
+        <label id="name-label">Name </label><input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-div">
+        <label id="email-label">Email</label> <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-div">
+       <label id="number-label">Age(optional)</label> <input type="number" min="1" max="120" id="age" name="age" placeholder="Age" required>
+        </div>
+    <div class="form-div">
+      <label id="dropdown-label">Which option best describes your role?</label>
+      <select id="name" name="dropdown">
+      <option value="">Select current role></option>
+      <option value="1">Student></option>   
+      <option value="2">Full time job</option>   
+      <option value="3">Full time learner</option>   
+      <option value="4">Prefer not to say></option>   
+      <option value="5">Other></option>   
+      </select>
+    </div>
+     <label id="definitely"><input type="radio" value="definitely" name="recommend">Definitely</label>
+  </div>
+     </form>
 </body>
 </html>
